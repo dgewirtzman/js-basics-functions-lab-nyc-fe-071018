@@ -15,6 +15,5 @@ function calculatesFarePrice(someValue, anotherValue) {
   switch(distanceTravelledInFeet(someValue, anotherValue)) {
     case distanceTravelledInFeet() < 400:
       return '0';
-      break;
   }
 }
