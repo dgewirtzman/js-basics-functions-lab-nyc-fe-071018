@@ -12,7 +12,8 @@ function distanceTravelledInFeet(someValue, anotherValue) {
 }
 
 function calculatesFarePrice(someValue, anotherValue) {
-    if (distanceTravelledInFeet(someValue, anotherValue) < 401){
+    let distance = distanceTravelledInFeet(someValue, anotherValue);
+    if (distance < 401){
       return 0;
     }
     if (distanceTravelledInFeet(someValue, anotherValue) <= 2000){
