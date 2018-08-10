@@ -28,8 +28,10 @@ function calculatesFarePrice(someValue, anotherValue) {
     let distance = distanceTravelledInFeet(someValue, anotherValue);
     switch (true){
       case (distance<=400):
-      return 0;
-      case (distance <= 2000)
+        return 0;
+      case (distance <= 2000):
+        return ((distance - 400) * .02);
+      case ()
       }
     
 }
