@@ -16,6 +16,4 @@ function calculatesFarePrice(someValue, anotherValue) {
       return '0';
     }
     
-    }
   }
-}
