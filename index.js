@@ -29,7 +29,7 @@ function calculatesFarePrice(someValue, anotherValue) {
     switch (true){
       case (distance<=400):
       return 0;
-      case (d)
+      case (distance <= 2000)
       }
     
 }
