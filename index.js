@@ -15,8 +15,10 @@ function calculatesFarePrice(someValue, anotherValue) {
     if (distanceTravelledInFeet(someValue, anotherValue) < 401){
       return 0;
     }
-    if (distanceTravelledInFeet(someValue, anotherValue) < 2001){
+    if (distanceTravelledInFeet(someValue, anotherValue) <= 200){
       return ((distanceTravelledInFeet(someValue, anotherValue) - 400) * .02);
     }
-    if 
+   if (distanceTravelledInFeet(someValue, anotherValue) > 200){
+      return ((distanceTravelledInFeet(someValue, anotherValue) - 400) * .02);
+    }
 }
