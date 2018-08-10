@@ -22,5 +22,6 @@ function calculatesFarePrice(someValue, anotherValue) {
    if ((distance > 2001) || (distance <= 2500)){
       return 25;
     }
-    
+   if (distance > 2500)
+   return ''
 }
