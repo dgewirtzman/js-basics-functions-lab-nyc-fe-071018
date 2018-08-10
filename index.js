@@ -11,7 +11,7 @@ function distanceTravelledInFeet(someValue, anotherValue) {
   return (Math.abs(someValue-anotherValue) * 264);
 }
 
-function calculatesFarePrice(someValue, anotherValue) {
+function calculatesFarePrice(true) {
   switch(distanceTravelledInFeet(someValue, anotherValue)) {
     case < 400:
       return 0;
