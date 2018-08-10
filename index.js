@@ -31,7 +31,9 @@ function calculatesFarePrice(someValue, anotherValue) {
         return 0;
       case (distance <= 2000):
         return ((distance - 400) * .02);
-      case ()
+      case ((distance > 2001) && (distance <= 2500)):
+        return 25;
+      
       }
     
 }
