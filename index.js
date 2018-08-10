@@ -33,7 +33,7 @@ function calculatesFarePrice(someValue, anotherValue) {
         return ((distance - 400) * .02);
       case ((distance > 2001) && (distance <= 2500)):
         return 25;
-      default:
+      case (distance >= 2500):
         return 'cannot travel that far';
       }
     
